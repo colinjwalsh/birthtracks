@@ -1,0 +1,58 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+img {
+  max-width: 100%;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.bt-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*@media {look in bootstrap documentation
+
+}*/
+/*/*need to add media query (make it more specific -- by using 2 classes vs 1 - than the bootstrap classes so it overrides it) when it goes to mobile nav to get rid of .bt-nav*/
+
+.bt-navbar {
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.bt-header-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.bt-grey-bg {
+	background: #f5f5f5;
+	padding-left: 260px;
+	padding-right:260px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+}
